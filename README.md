@@ -1,22 +1,21 @@
 # SW and R basic settings
 
 ## SW settings
-
+- переход в привелегированный режим
 Switch>en
- - banner and hostname
- 
+- режим глобальной настройки
 Switch#conf t
 
 Enter configuration commands, one per line.  End with CNTL/Z.
-
+- имя устройства
 Switch(config)#host SW1
-
+- баннер
 SW1(config)#banner motd @
 
 Enter TEXT message.  End with the character '@'.
 
 Achtung! @
-- passwords
+- создание паролей
  
 SW1(config)#enable sec class
 
@@ -44,14 +43,13 @@ SW1(config)#line vty
 SW1(config)#line vty ?
 
 <0-15>  First Line number
-
+- настройка виртуальных линий
 SW1(config)#line vty line vty 0 4
                      ^
 % Invalid input detected at '^' marker.
- - vty line settings
  
 SW1(config)#line vty 0 4
-
+- пароль
 SW1(config-line)#password class
 
 SW1(config-line)#login
@@ -67,7 +65,7 @@ SW1#conf int
 
 ^
 % Invalid input detected at '^' marker.
- - ip settings
+ - настройка ip
  
 SW1#conf t
 
