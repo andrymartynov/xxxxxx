@@ -2,8 +2,10 @@
 
 ## SW settings
 - переход в привелегированный режим
+
 Switch>en
 - режим глобальной настройки
+
 Switch#conf t
 
 Enter configuration commands, one per line.  End with CNTL/Z.
