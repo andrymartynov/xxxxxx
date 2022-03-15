@@ -1,5 +1,9 @@
 # Создание ipv6 топологии
 
+- создаем топологию
+
+![Screenshot (20)](https://user-images.githubusercontent.com/99132039/158406866-5afcff19-010c-4c75-951f-e0e648ff2e66.png)
+
 - после базовой настройки R1 включаем маршрутизацию и задаем ipv6 настройки
 
 R1(config)#ipv6 unicast-routing
