@@ -58,3 +58,7 @@ R1(config-line)#transport input ssh
 
 - проверяем связь в сети
 
+![Screenshot (26)](https://user-images.githubusercontent.com/99132039/161400438-7ba52296-292d-42a1-a9aa-6a4725accfba.png)
+
+- пробуем подключиться к R1 по ssh
+
