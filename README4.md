@@ -62,3 +62,4 @@ R1(config-line)#transport input ssh
 
 - пробуем подключиться к R1 по ssh
 
+![Screenshot (25)](https://user-images.githubusercontent.com/99132039/161400441-f3024144-a76b-41dc-a4be-b677b600aa0c.png)
