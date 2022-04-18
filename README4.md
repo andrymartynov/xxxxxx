@@ -8,6 +8,8 @@ SW1(config)#no ip domain-lo
 
 SW1(config)#no ip domain-lookup 
 
+*имя и пароль устройсва и генерация крипто ключа*
+
 SW1(config)#ip domain-n
 
 SW1(config)#ip domain-name SW1
@@ -16,6 +18,7 @@ SW1(config)#username admin sec adm1n
 
 SW1(config)#crypto key generate rsa 
 
+*настройка доступа к виртуальным линиям*
 
 SW1(config)#line vty 0 4
 
