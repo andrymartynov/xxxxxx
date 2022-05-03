@@ -100,3 +100,6 @@ SW1(config-if)#sw ac vlan 20
 
 ## разбираемся с PC-1 и PC-2
 
+![Screenshot (33)](https://user-images.githubusercontent.com/99132039/166460547-a891728c-a478-49d6-9fba-b23baf2d3846.png)
+
+![Screenshot (33)](https://user-images.githubusercontent.com/99132039/166460547-a891728c-a478-49d6-9fba-b23baf2d3846.png)
