@@ -108,3 +108,4 @@ SW1(config-if)#sw ac vlan 20
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/99132039/166460805-805a64e7-a192-4ebf-8eef-ac6b5d068b73.png)
 
+![Screenshot (36)](https://user-images.githubusercontent.com/99132039/166460808-6b5d65ae-897f-4ecd-af32-952319552d58.png)
