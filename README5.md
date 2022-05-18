@@ -1,5 +1,7 @@
 # vlan
 
+![Screenshot (37)](https://user-images.githubusercontent.com/99132039/169118430-897d938e-ad33-4c58-99e0-ab6cdf17096c.png)
+
 ## настраиваем транк на коммутаторе SW1
 
 - создаем транк между коммутаторами SW1 и SW2
