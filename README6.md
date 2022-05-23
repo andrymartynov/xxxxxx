@@ -2,7 +2,7 @@
 
 - топология
 
-
+![Screenshot (38)](https://user-images.githubusercontent.com/99132039/169853542-d80fba4a-93cb-4cf6-9317-8eeeb4d89262.png)
 
 ## базовая настройка устройств 
 
