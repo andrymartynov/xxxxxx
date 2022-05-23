@@ -86,9 +86,7 @@ R1(config-subif)#ip add 192.168.30.1 255.255.255.0
 
 R1(config-subif)#int g0/0/1.1000
 
-R1(config-subif)#enc d
-
-R1(config-subif)#enc dot1Q 1000
+R1(config-subif)#enc dot1Q 1000 native
 
 *разумеется предварительно включаем интерфейс G0/0/1*
 
