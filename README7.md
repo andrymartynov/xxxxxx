@@ -1,6 +1,6 @@
 # STP
 
-
+![Screenshot (39)](https://user-images.githubusercontent.com/99132039/169892600-5de73b12-7a9c-4f6c-8fc4-f9a74ff3fa17.png)
 
 ## базовая настройка свитчей (на примере SW1)
 
