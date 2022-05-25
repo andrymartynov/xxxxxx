@@ -1,5 +1,6 @@
 # DHCPv6
 
+![Screenshot (44)](https://user-images.githubusercontent.com/99132039/170305768-15728cb0-44a3-4eba-8232-e68f20b5c584.png)
 
 ## задаем IPv6 адреса роутерам и проводим базовую настройку
 
