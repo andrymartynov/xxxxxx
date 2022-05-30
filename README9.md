@@ -158,6 +158,8 @@ Sw2(config-if)#ip dhcp snooping limit rate 5
 
 Sw2(config)#ip dhcp snooping vlan 10
 
+![Screenshot (48)](https://user-images.githubusercontent.com/99132039/171043196-df89b54b-9eb2-46e1-b92f-1dfcd98839a6.png)
+
 ## bpdu guard и portfast
 
 Sw2(config-if)#spanning-tree portfast 
