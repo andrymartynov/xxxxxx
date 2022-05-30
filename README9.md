@@ -90,3 +90,77 @@ Sw2(config-if)#sw ac vlan 10
 
 - перемещаем неиспользуемые порты в влан 999 и отключаем их
 
+999  parking-lot                      active    
+
+Fa0/2, Fa0/3, Fa0/4, Fa0/7
+
+Fa0/8, Fa0/9, Fa0/10, Fa0/11
+
+Fa0/12, Fa0/13, Fa0/14, Fa0/15
+
+Fa0/16, Fa0/17, Fa0/18, Fa0/19
+
+Fa0/20, Fa0/21, Fa0/22, Fa0/23
+                                                
+Fa0/24, Gig0/1, Gig0/2
+
+## настройка безопасности access портов
+
+- настраиваем port-security sw1
+
+Sw1#sh port-security int f0/6
+
+Port Security              : Enabled
+
+Port Status                : Secure-up
+
+Violation Mode             : Restrict
+
+Aging Time                 : 60 mins
+
+Aging Type                 : Inactive
+
+SecureStatic Address Aging : Disabled
+
+Maximum MAC Addresses      : 3
+
+- sw2
+
+Sw2#sh port-security int f0/18
+
+Port Security              : Disabled
+
+Port Status                : Secure-down
+
+Violation Mode             : Protect
+
+Aging Time                 : 60 mins
+
+Aging Type                 : Absolute
+
+SecureStatic Address Aging : Disabled
+
+Maximum MAC Addresses      : 2
+
+## dhcp snooping
+
+Sw2(config)#ip dhcp snooping
+
+Sw2(config)#int f0/1
+
+Sw2(config-if)#ip dhcp snooping trust
+
+Sw2(config-if)#int f0/18
+
+Sw2(config-if)#ip dhcp snooping limit rate 5
+
+Sw2(config)#ip dhcp snooping vlan 10
+
+## bpdu guard и portfast
+
+Sw2(config-if)#spanning-tree portfast 
+
+Sw2(config-if)#spanning-tree bpduguard enable
+
+## проверяем связь
+
