@@ -1,5 +1,7 @@
 # security
 
+![Screenshot (50)](https://user-images.githubusercontent.com/99132039/171043162-50ee47af-eb5d-4ce9-84dc-f1ed23f5814f.png)
+
 ## настройки роутера
 
 R1(config)#ip dhcp excluded-address 192.168.10.1 192.168.10.9
