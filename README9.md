@@ -166,3 +166,4 @@ Sw2(config-if)#spanning-tree bpduguard enable
 
 ## проверяем связь
 
+![Screenshot (49)](https://user-images.githubusercontent.com/99132039/171043172-057f245d-518d-4379-8094-251d47865b39.png)
