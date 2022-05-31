@@ -54,18 +54,4 @@ R1(config-if)#ipv6 dhcp server R2-STATEFUL
 
 - настраиваем ретрансляцию
 
-*тут возникла проблема*
-
 R2(config-if)#ipv6 dhcp relay destination 2001:db8:acad:2::1/64 g0/0/0
-
-% Invalid input detected at '^' marker.
-
-*трейсер говорит что команды не существует, судя по форумам у него в принципе проблемы с этой командой*
-
-R2(config-if)#ipv6 dhcp ?
-
-client  Act as an IPv6 DHCP client
-
-server  Act as an IPv6 DHCP server
-
-*жаль, все настройки работали идеально ровно до этого момента, и дело похоже и правда в самом трейсере*
