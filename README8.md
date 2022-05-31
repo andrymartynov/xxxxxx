@@ -36,7 +36,11 @@ R1(config-if)#ipv6 nd other-config-flag
 
 R1(config-if)#ipv6 dhcp server R1-STATELESS
 
-- вводим команду ipconfig /all на PC1 и наблюдаем появление DNS суффикса
+- вводим команду ipconfig /all на PC1
+
+![Screenshot (51)](https://user-images.githubusercontent.com/99132039/171183853-1cf22426-0b12-4ed1-81d1-b6c02be36ce8.png)
+
+*видим два суффикса так как скриншот сделан уже после создания второго сервера dns*
 
 ### с сохранением состояния
 
@@ -55,3 +59,9 @@ R1(config-if)#ipv6 dhcp server R2-STATEFUL
 - настраиваем ретрансляцию
 
 R2(config-if)#ipv6 dhcp relay destination 2001:db8:acad:2::1/64 g0/0/0
+
+- проверяем через PC2
+
+![Screenshot (52)](https://user-images.githubusercontent.com/99132039/171183872-e32dec33-77c2-4cc0-bdf4-01277faf2e76.png)
+
+*собственно ничего мы там не видим, ретрансляии ведь нет, но должен был появиться dns суффикс stateful.com*
